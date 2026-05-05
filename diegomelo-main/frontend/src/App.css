@@ -1,0 +1,6 @@
+/* App-level styles kept minimal. Theme lives in index.css */
+.App {
+    min-height: 100vh;
+    background: #050505;
+    color: #ffffff;
+}

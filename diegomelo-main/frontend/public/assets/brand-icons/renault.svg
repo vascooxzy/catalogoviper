@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80" role="img" aria-label="RENAULT">
+  <rect width="160" height="80" rx="0" fill="none"/>
+  <circle cx="80" cy="32" r="20" fill="none" stroke="white" stroke-width="3" opacity="0.92"/>
+  <path d="M64 32h32M80 16v32" stroke="white" stroke-width="1.5" opacity="0.22"/>
+  <text x="80" y="38" text-anchor="middle" fill="white" font-family="Arial Black,Arial,sans-serif" font-size="18" font-weight="900" letter-spacing="1">RE</text>
+  <text x="80" y="65" text-anchor="middle" fill="white" opacity="0.82" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">RENAULT</text>
+</svg>

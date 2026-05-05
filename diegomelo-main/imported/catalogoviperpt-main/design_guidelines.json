@@ -1,0 +1,71 @@
+{
+  "project_name": "Catálogo Viper",
+  "domain": "Automotive / E-commerce Catalog",
+  "theme": "dark",
+  "archetype": "Archetype 4 (Swiss & High-Contrast) - Monochrome Dark Mode",
+  "colors": {
+    "background": "#050505",
+    "surface": "#121212",
+    "surface_hover": "#1E1E1E",
+    "primary": "#FFFFFF",
+    "secondary": "#737373",
+    "border": "#262626",
+    "text_main": "#FFFFFF",
+    "text_muted": "#A3A3A3"
+  },
+  "typography": {
+    "heading_font": "Cabinet Grotesk",
+    "body_font": "Manrope",
+    "strategy": "High contrast brutalist typography. Massive, tight-tracking uppercase headings to convey automotive performance and aggression."
+  },
+  "layout_and_spacing": {
+    "strategy": "Generous spacing. Bento grid or large distinct columns for the 3 catalog items to give them premium focus. No clutter.",
+    "padding": "p-8 to p-24 for sections",
+    "components": "Go cardless or use sharp-edged layouts with 1px solid borders (border-white/10). No soft shadows."
+  },
+  "motion_and_interaction": {
+    "strategy": "Sleek, automotive feel. Micro-interactions like slight scaling on hover. Use glassmorphism (backdrop-blur-xl bg-black/60) for sticky header."
+  },
+  "media": {
+    "hero_background": {
+      "url": "https://images.pexels.com/photos/15466191/pexels-photo-15466191.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Close-up of a black snake coiled, to be used as a dark textured background overlay in the hero section with low opacity (e.g. bg-black/80)."
+    },
+    "wheels": [
+      {
+        "id": "wheel_1",
+        "url": "https://images.pexels.com/photos/30474840/pexels-photo-30474840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "name": "Viper Venom - Forged Series",
+        "description": "Jante forjada de alta performance em preto acetinado."
+      },
+      {
+        "id": "wheel_2",
+        "url": "https://images.pexels.com/photos/36202185/pexels-photo-36202185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "name": "Viper Strike - Alloy Series",
+        "description": "Design agressivo multi-raio em cinza titânio."
+      },
+      {
+        "id": "wheel_3",
+        "url": "https://images.pexels.com/photos/30474840/pexels-photo-30474840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "name": "Viper Fang - Track Series",
+        "description": "Ultra-leve para máxima performance em pista."
+      }
+    ],
+    "decorative_snake": {
+      "url": "https://images.pexels.com/photos/35735256/pexels-photo-35735256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Blue viper on black background, MUST be filtered to grayscale (filter: grayscale(100%)) to match the Black/White/Gray theme and used as an aggressive visual element."
+    }
+  },
+  "instructions_to_main_agent": [
+    "Build a premium dark-mode visual catalog landing page for 'Catálogo Viper'.",
+    "Strictly adhere to the requested color palette: White, Gray, and Black. Use the typography 'Cabinet Grotesk' for aggressive automotive headings.",
+    "Include a Hero section with the black snake image (pexels-photo-15466191) as a background overlay. Apply a heavy dark overlay (e.g., bg-black/80) so text pops effortlessly.",
+    "Implement a dedicated catalog section specifically showcasing 3 wheels/rims ('jantes') using the provided wheel images.",
+    "Use pure HTML/Tailwind for the layout to create an asymmetrical or premium structural layout. Avoid generic card components. Use sharp 1px borders with border-white/10.",
+    "Ensure all copy is in Portuguese as requested (e.g., 'Catálogo Viper', 'Jantes de Alta Performance').",
+    "No contact forms or transactional UI. This is purely a visual showcase.",
+    "Apply 'filter: grayscale(100%)' to any decorative snake images (like the blue viper image) to perfectly preserve the strict Black/Gray/White color palette.",
+    "Use Phosphor Icons or Lucide-React for UI icons.",
+    "Include data-testid on any navigation or interactive element."
+  ]
+}
